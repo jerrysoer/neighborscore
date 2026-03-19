@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "aggregate": "tsx scripts/aggregate.ts",
     "fetch-boundaries": "tsx scripts/fetch-boundaries.ts",
-    "fetch-static": "tsx scripts/fetch-static.ts"
+    "fetch-static": "tsx scripts/fetch-static.ts",
+    "test": "vitest run"
   },
   "dependencies": {
     "@turf/boolean-point-in-polygon": "^7.2.0",
@@ -36,6 +37,7 @@
     "tsx": "^4.19.3",
     "typescript": "~5.7.0",
     "typescript-eslint": "^8.26.0",
-    "vite": "^6.3.0"
+    "vite": "^6.3.0",
+    "vitest": "^4.1.0"
   }
 }
