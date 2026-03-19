@@ -13,7 +13,7 @@ export function Layout() {
   return (
     <div className="min-h-screen bg-bg font-body text-text">
       <nav className="border-b border-gray-200 bg-surface">
-        <div className="mx-auto flex max-w-5xl items-center gap-1 px-4 py-3">
+        <div className="mx-auto flex max-w-5xl items-center gap-1 overflow-x-auto px-4 py-3">
           <span className="mr-4 font-display text-lg font-bold text-civic-blue">
             NeighborScore
           </span>
