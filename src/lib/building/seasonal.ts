@@ -1,11 +1,11 @@
 import type { HPDViolation } from '../soda/types';
 
-interface MonthlyCount {
+export interface MonthlyCount {
   month: string; // YYYY-MM
   count: number;
 }
 
-interface SeasonalPattern {
+export interface SeasonalPattern {
   monthlyCounts: MonthlyCount[];
   averageMonthly: number;
   spikes: MonthlyCount[];
