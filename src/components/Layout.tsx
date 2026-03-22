@@ -38,6 +38,17 @@ export function Layout() {
       <main className="mx-auto max-w-5xl px-4 py-8">
         <Outlet />
       </main>
+      <footer className="border-t border-gray-200 py-4 text-center text-sm text-text-muted">
+        by{' '}
+        <a
+          href="https://github.com/jerrysoer/neighborscore"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline decoration-text-muted/40 underline-offset-2 transition-colors hover:text-civic-blue"
+        >
+          jerrysoer
+        </a>
+      </footer>
     </div>
   );
 }
