@@ -27,6 +27,7 @@ jobs:
       - run: npm run build
         env:
           VITE_MAPBOX_TOKEN: ${{ secrets.VITE_MAPBOX_TOKEN }}
+          VITE_VERDICT_API_URL: ${{ vars.VITE_VERDICT_API_URL }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
